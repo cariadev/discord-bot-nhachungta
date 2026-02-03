@@ -1,0 +1,34 @@
+{
+  "bot_settings": {
+    "prefix": "!",
+    "status": "!help | Anime Server",
+    "status_type": "playing"
+  },
+  "leveling": {
+    "xp_per_message": 10,
+    "xp_cooldown_seconds": 60,
+    "xp_per_level": 100
+  },
+  "moderation": {
+    "warning_mute_minutes": 2,
+    "max_warnings_before_mute": 2,
+    "auto_delete_notification_seconds": 30
+  },
+  "channels": {
+    "welcome_channel_name": "welcome",
+    "goodbye_channel_name": "goodbye",
+    "log_channel_name": "logs"
+  },
+  "embeds": {
+    "welcome_color": "0xFF69B4",
+    "goodbye_color": "0x808080",
+    "levelup_color": "0xFFD700",
+    "warning_color": "0xFFA500",
+    "error_color": "0xFF0000",
+    "success_color": "0x00FF00"
+  },
+  "images": {
+    "welcome_banner": "https://i.imgur.com/AfFp7pu.png",
+    "goodbye_banner": ""
+  }
+}

@@ -1,0 +1,16 @@
+[Unit]
+Description=Discord Bot Anime
+After=network.target
+
+[Service]
+Type=simple
+User=YOUR_USERNAME
+WorkingDirectory=/path/to/discord-bot
+ExecStart=/usr/bin/python3 /path/to/discord-bot/bot.py
+Restart=always
+RestartSec=10
+StandardOutput=append:/var/log/discord-bot.log
+StandardError=append:/var/log/discord-bot-error.log
+
+[Install]
+WantedBy=multi-user.target
